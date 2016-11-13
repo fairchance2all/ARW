@@ -1,0 +1,60 @@
+.element-start{
+
+  margin:100px
+}
+.chart-card{
+
+  margin:30px;
+  padding:0;
+}
+.chart-canvas{
+  height: 130px;
+  width:130px;
+}
+
+@media screen and (max-width: 450px) {
+  .element-start{
+
+    margin:10px
+  }
+  .chart-card{
+
+    margin:2px;
+
+  }
+  .chart-canvas{
+    height: 130px;
+    width:140px;
+  }
+}
+.date-container {
+  padding: 16px 0 24px 0;
+}
+.attachment-list {
+  font-size: 13px;
+  padding-top: 16px;
+
+  .attachment {
+    background-color: rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding-left: 16px;
+    margin-top: 8px;
+    border-radius: 2px;
+
+    .filename {
+      font-weight: 500;
+    }
+
+    .size {
+
+    }
+
+    .md-button {
+      margin: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
